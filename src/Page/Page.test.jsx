@@ -1,8 +1,8 @@
 import { render } from "@testing-library/react";
-import App from "./App";
+import Page from ".";
 
-describe("</ App>", () => {
+describe("</ Page>", () => {
 	it("should render", () => {
-		render(<App />);
+		render(<Page />);
 	});
 });

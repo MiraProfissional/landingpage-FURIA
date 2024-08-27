@@ -1,0 +1,31 @@
+.navbar {
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    padding: 1em;
+}
+
+.div-img {
+    height: auto;
+    display: flex;
+    align-items: center;
+}
+
+.div-img img {
+    width: 100%;
+    height: auto;
+}
+
+.lista-nav {
+    display: flex;
+    list-style: none;
+    align-items: center;
+}
+
+
+.itens-lista-navbar {
+    color: white;
+    font-size: 20px;
+    margin: 0px 15px;
+}
