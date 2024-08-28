@@ -5,9 +5,6 @@ import "swiper/css";
 import "./styles.css";
 import "swiper/css/navigation";
 import "swiper/css/autoplay";
-import timeMasFuria from "../../utilities/images/TimeMasculino/time-masculino-furia-1.png";
-import timeMasFuria2 from "../../utilities/images/TimeMasculino/time-masculino-furia-2.png";
-import timeFemFuria from "../../utilities/images/TimeFeminino/time-feminino-furia.png";
 
 function Carrossel() {
 	return (
@@ -25,7 +22,7 @@ function Carrossel() {
 			>
 				<SwiperSlide className="slide-item">
 					<img
-						src={timeMasFuria}
+						src={'../images/TimeMasculino/time-masculino-furia-1.png'}
 						className="images-carrossel"
 						alt="Time Masculino Furia"
 					/>
@@ -40,7 +37,7 @@ function Carrossel() {
 				</SwiperSlide>
 				<SwiperSlide className="slide-item">
 					<img
-						src={timeFemFuria}
+						src={'../images/TimeMasculino/time-masculino-furia-2.png'}
 						className="images-carrossel"
 						alt="Time Feminino Furia"
 					/>
@@ -55,7 +52,7 @@ function Carrossel() {
 				</SwiperSlide>
 				<SwiperSlide className="slide-item">
 					<img
-						src={timeMasFuria2}
+						src={'../images/TimeFeminino/time-feminino-furia.png'}
 						className="images-carrossel"
 						alt="Time Feminino Furia"
 					/>

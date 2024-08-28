@@ -1,12 +1,11 @@
 import React from "react";
 import "./styles.css";
-import timeFuriaInicio from "../../utilities/images/TimeMasculino/furia-timeinicio-cs.webp";
 
 function Historia() {
 	return (
 		<div id="container-historia">
 			<div className="historia-container-imagem">
-				<img src={timeFuriaInicio} alt="time-furia-inicio-cs" />
+				<img src={'../images/TimeMasculino/furia-timeinicio-cs.webp'} alt="time-furia-inicio-cs" />
 			</div>
 			<div className="divisoria-container-historia"></div>
 			<div className="historia-container-texto">

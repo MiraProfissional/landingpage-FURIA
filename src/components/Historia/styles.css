@@ -7,7 +7,7 @@
     align-items: center;
     justify-content: space-evenly;
     overflow: hidden; 
-    background-image: url("../../utilities/images/Logos/wallpaper-furia.jpg");
+    background-image: url("/public/images/Logos/wallpaper-furia.jpg");
     background-size: cover;
     background-position: center;
     background-color: rgba(0, 0, 0, 0.5); 

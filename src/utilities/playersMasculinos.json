@@ -1,28 +1,92 @@
-[
+[{
+	"id": 1,
+	"nome": "Pedro Pulig",
+	"nickname": "Koy",
+	"nacionalidade": "Brasileiro",
+	"nascimento": "04 de Janeiro, 1994, (30 anos)",
+	"posicao": "Head Coach",
+	"capitao": "false",
+	"instagram": "https://www.instagram.com/koyfps/",
+	"x": "https://x.com/koyfps",
+	"twitch": "",
+	"imagem": "../images/TimeMasculino/Players/Koy.png"
+},
 	{
-		"id": 1,
+		"id": 2,
+		"nome": "Lucas Soares",
+		"nickname": "lukzera",
+		"nacionalidade": "Brasileiro",
+		"nascimento": "04 de Fevereiro, 1998, (26 anos)",
+		"posicao": "Assistant Coach",
+		"capitao": "false",
+		"instagram": "https://www.instagram.com/lukzerafps/",
+		"x": "",
+		"twitch": "",
+        "imagem": "../images/TimeMasculino/Players/Lukzera.png"
+	},
+	{
+		"id": 3,
 		"nome": "Khalil Schmidt",
 		"nickname": "Khalil",
 		"nacionalidade": "Brasileiro",
 		"nascimento": "11 de Junho, 2004 (20 anos)",
 		"posicao": "Controlador",
 		"capitao": "false",
-		"instagram": "",
-		"x": "",
-		"twitch": "",
-		"imagem": "../../utilities/images/TimeMasculino/Players/Khalil.png"
+		"instagram": "https://www.instagram.com/khalilfps/",
+		"x": "https://x.com/khalilfps",
+		"twitch": "https://www.twitch.tv/khalil_fps",
+		"imagem": "../images/TimeMasculino/Players/Khalil.png"
 	},
 	{
-		"id": 2,
+		"id": 4,
 		"nome": "Agustin Ibarra",
 		"nickname": "nzr",
 		"nacionalidade": "Argentino",
 		"nascimento": "08 de Maio, 1998, (26 anos)",
 		"posicao": "Iniciador",
 		"capitao": "true",
-		"instagram": "",
+		"instagram": "https://www.instagram.com/nozwerr/",
+		"x": "https://x.com/Nozwer",
+		"twitch": "https://www.twitch.tv/nozwerr",
+        "imagem": "../images/TimeMasculino/Players/Nzr.png"
+	},
+	{
+		"id": 5,
+		"nome": "Ilan Eloy",
+		"nickname": "havoc",
+		"nacionalidade": "Brasileiro",
+		"nascimento": "11 de Junho, 2006 (18 anos)",
+		"posicao": "Sentinela",
+		"capitao": "false",
+		"instagram": "https://www.instagram.com/havocfps1/",
 		"x": "",
-		"twitch": "",
-        "imagem": "../../utilities/images/TimeMasculino/Players/Nzr.png"
+		"twitch": "https://www.twitch.tv/havocfps1",
+		"imagem": "../images/TimeMasculino/Players/Havoc.png"
+	},
+	{
+		"id": 6,
+		"nome": "Alexandre Zizi",
+		"nickname": "Xand",
+		"nacionalidade": "Brasileiro",
+		"nascimento": "11 de Abril, 1995 (29 anos)",
+		"posicao": "Flex",
+		"capitao": "false",
+		"instagram": "https://www.instagram.com/xandzizi/",
+		"x": "https://x.com/xandfps",
+		"twitch": "https://www.twitch.tv/xandfps",
+		"imagem": "../images/TimeMasculino/Players/Xand.png"
+	},
+	{
+		"id": 7,
+		"nome": "Leonardo da Silva",
+		"nickname": "mwzera",
+		"nacionalidade": "Brasileiro",
+		"nascimento": "30 de Junho, 2001 (23 anos)",
+		"posicao": "Duelista",
+		"capitao": "false",
+		"instagram": "https://www.instagram.com/mwzera/",
+		"x": "https://x.com/mwzera",
+		"twitch": "https://www.twitch.tv/mwzera",
+		"imagem": "../images/TimeMasculino/Players/mwzera.png"
 	}
 ]

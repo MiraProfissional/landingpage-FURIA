@@ -2,15 +2,16 @@ import React from "react";
 import "./styles.css";
 import { FaTwitch, FaInstagram } from "react-icons/fa";
 import { FaSquareXTwitter } from "react-icons/fa6";
-import brazilFlag from "../../utilities/images/Bandeiras/brazil-flag-icon.webp";
-import argentinaFlag from "../../utilities/images/Bandeiras/argentina-flag-icon.png";
 
 function CardPlayer(props) {
+
+	const player = props.data
+
 	const avaliarNacionalidade = (nacionalidade) => {
 		if (nacionalidade === "Brasileiro") {
 			return (
 				<img
-					src={brazilFlag}
+					src={'../images/Bandeiras/brazil-flag-icon.webp'}
 					className="foto-nacionalidade-player"
 					alt="bandeira-brasil"
 				/>
@@ -18,7 +19,7 @@ function CardPlayer(props) {
 		} else if (nacionalidade === "Argentino") {
 			return (
 				<img
-					src={argentinaFlag}
+					src={'../images/Bandeiras/argentina-flag-icon.png'}
 					className="foto-nacionalidade-player"
 					alt="bandeira-argentina"
 				/>
@@ -35,21 +36,22 @@ function CardPlayer(props) {
 		}
 	};
 
+
 	return (
 		<div className="container-card-player">
 			<div className="card-player-imagem">
-				<img src={props.data.imagem} className="foto-player" alt="" />
+				<img src={player.imagem} className="foto-player" alt="" />
 			</div>
 			<div className="card-player-informacoes">
 				<div className="informacoes-pessoais-players">
 					<div className="header-informacoes">
-						<p className="informacao-posicao">{props.data.posicao}</p>
-						{avaliarCapitao(props.data.capitao)}
-						{avaliarNacionalidade(props.data.nacionalidade)}
+						<p className="informacao-posicao">{player.posicao}</p>
+						{avaliarCapitao(player.capitao)}
+						{avaliarNacionalidade(player.nacionalidade)}
 					</div>
 					<div className="header-informacoes-pessoais">
-						<h4>{props.data.nome}</h4>
-						<p className="informacao-props-nascimento">{props.data.nascimento}</p>
+						<h4>{player.nome}</h4>
+						<p className="informacao-props-nascimento">{player.nascimento}</p>
 					</div>
 				</div>
 				<div className="redes-sociais-players">
