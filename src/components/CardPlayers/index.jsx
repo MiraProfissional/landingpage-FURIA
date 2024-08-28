@@ -8,20 +8,28 @@ function CardPlayer(props) {
 	const player = props.data
 
 	const avaliarNacionalidade = (nacionalidade) => {
-		if (nacionalidade === "Brasileiro") {
+		if (nacionalidade === "Brasileira") {
 			return (
 				<img
 					src={'../images/Bandeiras/brazil-flag-icon.webp'}
 					className="foto-nacionalidade-player"
-					alt="bandeira-brasil"
+					alt="bandeira-brasileira"
 				/>
 			);
-		} else if (nacionalidade === "Argentino") {
+		} else if (nacionalidade === "Argentina") {
 			return (
 				<img
 					src={'../images/Bandeiras/argentina-flag-icon.png'}
 					className="foto-nacionalidade-player"
 					alt="bandeira-argentina"
+				/>
+			);
+		} else if (nacionalidade === "Chilena") {
+			return (
+				<img
+					src={'../images/Bandeiras/chile-flag-icon.png'}
+					className="foto-nacionalidade-player"
+					alt="bandeira-chilena"
 				/>
 			);
 		}

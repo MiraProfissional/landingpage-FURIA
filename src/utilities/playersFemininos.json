@@ -1,0 +1,67 @@
+[
+	{
+		"id": 1,
+		"nome": "Paula Nobre",
+		"nickname": "Paula",
+		"nacionalidade": "Brasileira",
+		"nascimento": "11 de Junho, 2004 (20 anos)",
+		"posicao": "Controlador",
+		"capitao": "false",
+		"instagram": "https://www.instagram.com/paulanobrez/?hl=pt-br",
+		"x": "https://x.com/paulanobrez",
+		"twitch": "https://www.twitch.tv/paulanobre",
+		"imagem": "../images/TimeFeminino/Players/Paula.png"
+	},
+	{
+		"id": 2,
+		"nome": "Pamella Shibuya", 
+		"nickname": "pannshi",
+		"nacionalidade": "Brasileira",
+		"nascimento": "14 de Outubro, 1993 (30 anos)",
+		"posicao": "Iniciador",
+		"capitao": "true",
+		"instagram": "https://www.instagram.com/panshibuya/",
+		"x": "https://x.com/pannshi",
+		"twitch": "https://www.twitch.tv/pannshi",
+        "imagem": "../images/TimeFeminino/Players/Pannshi.png"
+	},
+	{
+		"id": 3,
+		"nome": "Luiza Meira", 
+		"nickname": "lule",
+		"nacionalidade": "Brasileira",
+		"nascimento": "03 de Fevereiro, 2006 (18 anos)",
+		"posicao": "Sentinela",
+		"capitao": "false",
+		"instagram": "https://www.instagram.com/lulefps",
+		"x": "https://x.com/lulefps",
+		"twitch": "https://www.twitch.tv/lulefps",
+		"imagem": "../images/TimeFeminino/Players/lule.png"
+	},
+	{
+		"id": 4,
+		"nome": "Nicole Echenique",
+		"nickname": "Valinaaa",
+		"nacionalidade": "Chilena",
+		"nascimento": "11 de Abril, 1995 (29 anos)",
+		"posicao": "Flex",
+		"capitao": "true",
+		"instagram": "https://www.instagram.com/nico_eche",
+		"x": "https://x.com/_valinaaaaaaa",
+		"twitch": "https://www.twitch.tv/valinaaaaaaa",
+        "imagem": "../images/TimeFeminino/Players/Valinaaa.png"
+	},
+	{
+		"id": 5,
+		"nome": "Ilan Eloy",
+		"nickname": "havoc",
+		"nacionalidade": "Brasileira",
+		"nascimento": "11 de Junho, 1998 (26 anos)",
+		"posicao": "Duelista",
+		"capitao": "false",
+		"instagram": "https://www.instagram.com/hehehellen1_",
+		"x": "https://x.com/hehehellen1",
+		"twitch": "https://www.twitch.tv/hehehellen",
+		"imagem": "../images/TimeFeminino/Players/Hehehellen.png"
+	}
+]
