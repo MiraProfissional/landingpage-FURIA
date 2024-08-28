@@ -1,0 +1,26 @@
+[
+    {
+        "id": 1,
+        "nome": "Khalil Schmidt",
+        "nickname": "Khalil",
+        "nacionalidade": "Brasileiro",
+        "nascimento": "11 de Junho, 2004",
+        "posicao": "Controlador",
+        "capitao": "false",
+        "instagram": "",
+        "x": "",
+        "twitch": ""
+    },
+    {
+        "id": 2,
+        "nome": "Agustin Ibarra",
+        "nickname": "nzr",
+        "nacionalidade": "Argentino",
+        "nascimento": "08 de Maio, 1998",
+        "posicao": "Iniciador",
+        "capitao": "true",
+        "instagram": "",
+        "x": "",
+        "twitch": ""
+    }
+]
