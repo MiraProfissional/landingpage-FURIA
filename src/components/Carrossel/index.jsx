@@ -29,9 +29,10 @@ function Carrossel() {
 					<div className="sombra-overlay"></div>
 					<div className="slide-title">
 						<h1>SOMOS FURIA!</h1>
+						<br />
 						<p>
 							Uma organização de esports que nasceu do desejo de representar o
-							Brasil no CS e conquistou muito mais que isso
+							Brasil no CS <br />e conquistou muito mais que isso
 						</p>
 					</div>
 				</SwiperSlide>
@@ -44,9 +45,10 @@ function Carrossel() {
 					<div className="sombra-overlay"></div>
 					<div className="slide-title">
 						<h1>SOMOS FURIA!</h1>
+						<br />
 						<p>
 							Uma organização de esports que nasceu do desejo de representar o
-							Brasil no CS e conquistou muito mais que isso
+							Brasil no CS <br />e conquistou muito mais que isso
 						</p>
 					</div>
 				</SwiperSlide>
@@ -58,10 +60,11 @@ function Carrossel() {
 					/>
 					<div className="sombra-overlay"></div>
 					<div className="slide-title">
-						<h1>SOMOS FURIA!</h1>
+					<	h1>SOMOS FURIA!</h1>
+						<br />
 						<p>
 							Uma organização de esports que nasceu do desejo de representar o
-							Brasil no CS e conquistou muito mais que isso
+							Brasil no CS <br />e conquistou muito mais que isso	
 						</p>
 					</div>
 				</SwiperSlide>
