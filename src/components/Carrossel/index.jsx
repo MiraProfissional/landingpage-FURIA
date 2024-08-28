@@ -22,7 +22,7 @@ function Carrossel() {
 			>
 				<SwiperSlide className="slide-item">
 					<img
-						src={'../images/TimeMasculino/time-masculino-furia-1.png'}
+						src={"../images/TimeMasculino/time-masculino-furia-1.png"}
 						className="images-carrossel"
 						alt="Time Masculino Furia"
 					/>
@@ -37,7 +37,7 @@ function Carrossel() {
 				</SwiperSlide>
 				<SwiperSlide className="slide-item">
 					<img
-						src={'../images/TimeMasculino/time-masculino-furia-2.png'}
+						src={"../images/TimeMasculino/time-masculino-furia-2.png"}
 						className="images-carrossel"
 						alt="Time Feminino Furia"
 					/>
@@ -52,7 +52,7 @@ function Carrossel() {
 				</SwiperSlide>
 				<SwiperSlide className="slide-item">
 					<img
-						src={'../images/TimeFeminino/time-feminino-furia.png'}
+						src={"../images/TimeFeminino/time-feminino-furia.png"}
 						className="images-carrossel"
 						alt="Time Feminino Furia"
 					/>

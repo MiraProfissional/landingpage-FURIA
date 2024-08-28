@@ -14,7 +14,7 @@
 	},
 	{
 		"id": 2,
-		"nome": "Pamella Shibuya", 
+		"nome": "Pamella Shibuya",
 		"nickname": "pannshi",
 		"nacionalidade": "Brasileira",
 		"nascimento": "14 de Outubro, 1993 (30 anos)",
@@ -23,11 +23,11 @@
 		"instagram": "https://www.instagram.com/panshibuya/",
 		"x": "https://x.com/pannshi",
 		"twitch": "https://www.twitch.tv/pannshi",
-        "imagem": "../images/TimeFeminino/Players/Pannshi.png"
+		"imagem": "../images/TimeFeminino/Players/Pannshi.png"
 	},
 	{
 		"id": 3,
-		"nome": "Luiza Meira", 
+		"nome": "Luiza Meira",
 		"nickname": "lule",
 		"nacionalidade": "Brasileira",
 		"nascimento": "03 de Fevereiro, 2006 (18 anos)",
@@ -49,7 +49,7 @@
 		"instagram": "https://www.instagram.com/nico_eche",
 		"x": "https://x.com/_valinaaaaaaa",
 		"twitch": "https://www.twitch.tv/valinaaaaaaa",
-        "imagem": "../images/TimeFeminino/Players/Valinaaa.png"
+		"imagem": "../images/TimeFeminino/Players/Valinaaa.png"
 	},
 	{
 		"id": 5,

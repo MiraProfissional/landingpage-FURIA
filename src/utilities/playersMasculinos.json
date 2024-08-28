@@ -3,7 +3,7 @@
 		"id": 1,
 		"nome": "Pedro Pulig",
 		"nickname": "Koy",
-		"nacionalidade": "Brasileiro",
+		"nacionalidade": "Brasileira",
 		"nascimento": "04 de Janeiro, 1994, (30 anos)",
 		"posicao": "Head Coach",
 		"capitao": "false",
@@ -16,14 +16,14 @@
 		"id": 2,
 		"nome": "Lucas Soares",
 		"nickname": "lukzera",
-		"nacionalidade": "Brasileiro",
+		"nacionalidade": "Brasileira",
 		"nascimento": "04 de Fevereiro, 1998 (26 anos)",
 		"posicao": "Assistant Coach",
 		"capitao": "false",
 		"instagram": "https://www.instagram.com/lukzerafps/",
 		"x": "",
 		"twitch": "",
-        "imagem": "../images/TimeMasculino/Players/Lukzera.png"
+		"imagem": "../images/TimeMasculino/Players/Lukzera.png"
 	},
 	{
 		"id": 3,
@@ -49,7 +49,7 @@
 		"instagram": "https://www.instagram.com/nozwerr/",
 		"x": "https://x.com/Nozwer",
 		"twitch": "https://www.twitch.tv/nozwerr",
-        "imagem": "../images/TimeMasculino/Players/Nzr.png"
+		"imagem": "../images/TimeMasculino/Players/Nzr.png"
 	},
 	{
 		"id": 5,

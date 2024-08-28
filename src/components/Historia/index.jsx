@@ -5,7 +5,10 @@ function Historia() {
 	return (
 		<div id="container-historia">
 			<div className="historia-container-imagem">
-				<img src={'../images/TimeMasculino/furia-timeinicio-cs.webp'} alt="time-furia-inicio-cs" />
+				<img
+					src={"../images/TimeMasculino/furia-timeinicio-cs.webp"}
+					alt="time-furia-inicio-cs"
+				/>
 			</div>
 			<div className="divisoria-container-historia"></div>
 			<div className="historia-container-texto">

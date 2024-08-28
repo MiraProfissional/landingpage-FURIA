@@ -8,9 +8,9 @@ function Elenco() {
 		<div id="container-elenco">
 			<div className="background-elenco-masculino">
 				<h2>Homens</h2>
-          {playersMasculinos.map((player) => (
-            <CardPlayer key={player.id} data={player}/>
-          ))}
+				{playersMasculinos.map((player) => (
+					<CardPlayer key={player.id} data={player} />
+				))}
 			</div>
 			<div className="background-elenco-feminino">
 				<h2>Mulheres</h2>

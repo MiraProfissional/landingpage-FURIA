@@ -75,4 +75,15 @@
 
 .redes-sociais-players li{
     list-style-type: none;
+    margin-left: 5px;
 }
+
+.link-social-media {
+    color: black;
+}
+
+.link-social-media:hover {
+    color: purple;
+}
+
+

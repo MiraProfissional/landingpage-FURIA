@@ -4,14 +4,13 @@ import { FaTwitch, FaInstagram } from "react-icons/fa";
 import { FaSquareXTwitter } from "react-icons/fa6";
 
 function CardPlayer(props) {
-
-	const player = props.data
+	const player = props.data;
 
 	const avaliarNacionalidade = (nacionalidade) => {
 		if (nacionalidade === "Brasileira") {
 			return (
 				<img
-					src={'../images/Bandeiras/brazil-flag-icon.webp'}
+					src={"../images/Bandeiras/brazil-flag-icon.webp"}
 					className="foto-nacionalidade-player"
 					alt="bandeira-brasileira"
 				/>
@@ -19,7 +18,7 @@ function CardPlayer(props) {
 		} else if (nacionalidade === "Argentina") {
 			return (
 				<img
-					src={'../images/Bandeiras/argentina-flag-icon.png'}
+					src={"../images/Bandeiras/argentina-flag-icon.png"}
 					className="foto-nacionalidade-player"
 					alt="bandeira-argentina"
 				/>
@@ -27,7 +26,7 @@ function CardPlayer(props) {
 		} else if (nacionalidade === "Chilena") {
 			return (
 				<img
-					src={'../images/Bandeiras/chile-flag-icon.png'}
+					src={"../images/Bandeiras/chile-flag-icon.png"}
 					className="foto-nacionalidade-player"
 					alt="bandeira-chilena"
 				/>
@@ -43,7 +42,6 @@ function CardPlayer(props) {
 			return null;
 		}
 	};
-
 
 	return (
 		<div className="container-card-player">
@@ -64,13 +62,25 @@ function CardPlayer(props) {
 				</div>
 				<div className="redes-sociais-players">
 					<li>
-						<FaTwitch />
+						{player.twitch && (
+							<a href={player.twitch} className="link-social-media" rel="noreferrer" target="_blank">
+								<FaTwitch size={20}/>
+							</a>
+						)}
 					</li>
 					<li>
-						<FaInstagram />
+						{player.instagram && (
+							<a href={player.instagram} className="link-social-media" rel="noreferrer" target="_blank">
+								<FaInstagram size={20}/>
+							</a>
+						)}
 					</li>
 					<li>
-						<FaSquareXTwitter />
+						{player.x && (
+							<a href={player.x} className="link-social-media" rel="noreferrer" target="_blank">
+								<FaSquareXTwitter size={20}/>
+							</a>
+						)}
 					</li>
 				</div>
 			</div>
