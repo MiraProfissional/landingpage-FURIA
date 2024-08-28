@@ -1,5 +1,3 @@
 describe("</ Page>", () => {
-	it("should render", () => {
-		
-	});
+	it("should render", () => {});
 });

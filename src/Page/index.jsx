@@ -1,4 +1,5 @@
 import Carrossel from "../components/Carrossel";
+import Historia from "../components/Historia";
 import Navbar from "../components/Navbar";
 import "./styles.css";
 
@@ -7,6 +8,7 @@ function Page() {
 		<div className="Page">
 			<Navbar />
 			<Carrossel />
+			<Historia />
 		</div>
 	);
 }

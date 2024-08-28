@@ -1,5 +1,3 @@
 describe("</ Carrossel>", () => {
-	it("should render", () => {
-		
-	});
+	it("should render", () => {});
 });
