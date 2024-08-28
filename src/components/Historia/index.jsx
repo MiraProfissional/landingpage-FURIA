@@ -12,7 +12,7 @@ function Historia() {
 			</div>
 			<div className="divisoria-container-historia"></div>
 			<div className="historia-container-texto">
-				<h3>História</h3>
+				<h2>História</h2>
 				<br />
 				<p>
 					Nascida nas arenas do Counter-Strike: Global Offensive em 2017, a

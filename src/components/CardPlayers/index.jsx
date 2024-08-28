@@ -56,29 +56,48 @@ function CardPlayer(props) {
 						{avaliarNacionalidade(player.nacionalidade)}
 					</div>
 					<div className="header-informacoes-pessoais">
-						<h4>{player.nome}</h4>
+						<h4>
+							{player.nome.split(" ")[0]} "{player.nickname}"{" "}
+							{player.nome.split(" ").slice(1).join(" ")}
+						</h4>
+
 						<p className="informacao-props-nascimento">{player.nascimento}</p>
 					</div>
 				</div>
 				<div className="redes-sociais-players">
 					<li>
 						{player.twitch && (
-							<a href={player.twitch} className="link-social-media" rel="noreferrer" target="_blank">
-								<FaTwitch size={20}/>
+							<a
+								href={player.twitch}
+								className="link-social-media"
+								rel="noreferrer"
+								target="_blank"
+							>
+								<FaTwitch size={20} />
 							</a>
 						)}
 					</li>
 					<li>
 						{player.instagram && (
-							<a href={player.instagram} className="link-social-media" rel="noreferrer" target="_blank">
-								<FaInstagram size={20}/>
+							<a
+								href={player.instagram}
+								className="link-social-media"
+								rel="noreferrer"
+								target="_blank"
+							>
+								<FaInstagram size={20} />
 							</a>
 						)}
 					</li>
 					<li>
 						{player.x && (
-							<a href={player.x} className="link-social-media" rel="noreferrer" target="_blank">
-								<FaSquareXTwitter size={20}/>
+							<a
+								href={player.x}
+								className="link-social-media"
+								rel="noreferrer"
+								target="_blank"
+							>
+								<FaSquareXTwitter size={20} />
 							</a>
 						)}
 					</li>

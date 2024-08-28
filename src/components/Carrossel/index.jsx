@@ -28,7 +28,7 @@ function Carrossel() {
 					/>
 					<div className="sombra-overlay"></div>
 					<div className="slide-title">
-						<h2>SOMOS FURIA!</h2>
+						<h1>SOMOS FURIA!</h1>
 						<p>
 							Uma organização de esports que nasceu do desejo de representar o
 							Brasil no CS e conquistou muito mais que isso
@@ -43,7 +43,7 @@ function Carrossel() {
 					/>
 					<div className="sombra-overlay"></div>
 					<div className="slide-title">
-						<h2>SOMOS FURIA!</h2>
+						<h1>SOMOS FURIA!</h1>
 						<p>
 							Uma organização de esports que nasceu do desejo de representar o
 							Brasil no CS e conquistou muito mais que isso
@@ -58,7 +58,7 @@ function Carrossel() {
 					/>
 					<div className="sombra-overlay"></div>
 					<div className="slide-title">
-						<h2>SOMOS FURIA!</h2>
+						<h1>SOMOS FURIA!</h1>
 						<p>
 							Uma organização de esports que nasceu do desejo de representar o
 							Brasil no CS e conquistou muito mais que isso

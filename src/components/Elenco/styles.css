@@ -1,0 +1,29 @@
+#container-elenco {
+    background: rgb(3,3,3);
+    background: linear-gradient(180deg, rgba(3,3,3,1) 0%, rgba(0,0,0,1) 35%, rgba(85,53,88,1) 100%);
+    padding: 30px;
+}
+
+#container-elenco h2{
+    font-size: 2.5rem;
+    text-align: center;
+    color: #fff;    
+}
+
+.secao-par {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    
+}
+
+.secao-impar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.background-elenco-masculino , .background-elenco-feminino{
+    width: 75%;
+    margin: 0 auto;
+}
