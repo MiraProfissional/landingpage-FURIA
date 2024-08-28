@@ -38,7 +38,7 @@ function Carrossel() {
 				</SwiperSlide>
 				<SwiperSlide className="slide-item">
 					<img
-						src={"../images/TimeMasculino/time-masculino-furia-2.png"}
+						src={"../images/TimeFeminino/time-feminino-furia.png"}
 						className="images-carrossel"
 						alt="Time Feminino Furia"
 					/>
@@ -54,17 +54,17 @@ function Carrossel() {
 				</SwiperSlide>
 				<SwiperSlide className="slide-item">
 					<img
-						src={"../images/TimeFeminino/time-feminino-furia.png"}
+						src={"../images/TimeMasculino/time-masculino-furia-2.png"}
 						className="images-carrossel"
 						alt="Time Feminino Furia"
 					/>
 					<div className="sombra-overlay"></div>
 					<div className="slide-title">
-					<	h1>SOMOS FURIA!</h1>
+						<h1>SOMOS FURIA!</h1>
 						<br />
 						<p>
 							Uma organização de esports que nasceu do desejo de representar o
-							Brasil no CS <br />e conquistou muito mais que isso	
+							Brasil no CS <br />e conquistou muito mais que isso
 						</p>
 					</div>
 				</SwiperSlide>
