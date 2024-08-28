@@ -3,6 +3,6 @@ import Elenco from ".";
 
 describe("</ Elenco>", () => {
 	it("should render </Elenco>", () => {
-		render(<Elenco/>)
+		render(<Elenco />);
 	});
 });

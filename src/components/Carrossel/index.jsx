@@ -3,7 +3,7 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import { Navigation, Pagination } from "swiper/modules";
 import "swiper/css";
 import "./styles.css";
-import "swiper/css/navigation"; // Certifique-se de que o CSS de navegação está sendo importado
+import "swiper/css/navigation";
 import "swiper/css/autoplay";
 import timeMasFuria from "../../utilities/images/TimeMasculino/time-masculino-furia-1.png";
 import timeMasFuria2 from "../../utilities/images/TimeMasculino/time-masculino-furia-2.png";
