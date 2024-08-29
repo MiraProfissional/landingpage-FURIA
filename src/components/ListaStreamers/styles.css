@@ -1,0 +1,28 @@
+.container-lista-streamers {
+    height: 75%;
+    width: 75%;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #000;
+    padding: 10px 15px;
+    margin: 0px 40px;
+}
+
+.container-lista-streamers h4{
+    font-size: 2.0rem;
+}
+
+.conteudo-lista-streamers {
+    border: 1px solid #000;
+}
+
+.lista-streamers{
+    display: flex;
+    flex-direction: column;
+}
+
+.linha-streamer {
+    display: flex;
+    justify-content: space-between;
+}

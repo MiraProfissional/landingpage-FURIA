@@ -1,6 +1,7 @@
 import React from "react";
 import "./styles.css";
 import SocialMediaFuria from "../SocialMediaFuria";
+import ListaStreamers from "../ListaStreamers";
 
 function Furiosos() {
 	return (
@@ -8,13 +9,8 @@ function Furiosos() {
 			<h2>Acompanhe nossos FURIOSOS!</h2>
 			<div className="conteudo-container-furiosos">
 				<SocialMediaFuria />
-				<div className="divisoria-furiosos"> </div>
-				<div className="furiosos-streamers">
-					<ul>
-						<li>Streamer 1</li>
-						<li>Streamer 2</li>
-					</ul>
-				</div>
+				<div className="divisoria-furiosos"></div>
+				<ListaStreamers />
 			</div>
 		</div>
 	);
