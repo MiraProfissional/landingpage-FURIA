@@ -5,8 +5,8 @@ describe("</ CardPlayer>", () => {
 	it("should render </CardPlayer>", () => {
 		const mockData = {
 			imagem: "caminho/para/imagem.png",
-			nome: "João Vitor",
-			posicao: "Atacante",
+			nome: "Pancada",
+			posicao: "Destruidor",
 			capitao: "true",
 			nacionalidade: "Brasileira",
 			nascimento: "01/01/2000",
