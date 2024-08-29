@@ -10,7 +10,9 @@ function Historia() {
 					alt="time-furia-inicio-cs"
 				/>
 			</div>
-			<div className="divisoria-container-historia"></div>
+			<div className="divisoria-container-historia">
+				
+			</div>
 			<div className="historia-container-texto">
 				<h2>História</h2>
 				<br />
