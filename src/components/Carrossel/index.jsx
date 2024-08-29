@@ -38,9 +38,9 @@ function Carrossel() {
 				</SwiperSlide>
 				<SwiperSlide className="slide-item">
 					<img
-						src={"../images/TimeFeminino/time-feminino-furia.png"}
+						src={"../images/TimeInclusivo/time-Inclusivo-furia.png"}
 						className="images-carrossel"
-						alt="Time Feminino Furia"
+						alt="Time Inclusivo Furia"
 					/>
 					<div className="sombra-overlay"></div>
 					<div className="slide-title">

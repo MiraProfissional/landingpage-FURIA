@@ -15,7 +15,7 @@
 }
 
 .conteudo-container-furiosos {
-    width: 75%;
+    width: 80%;
     height: 100%;
     margin: 0 auto;
     display: flex;
@@ -28,10 +28,5 @@
     width: 2%;
     height: 80%;
     background-color: rgb(247,215,66);
-    margin: 0px;
-}
-
-.teste {
-    width: 75%;
-    margin: 0px 40px;
+    margin: 0px 30px;
 }

@@ -1,30 +1,22 @@
 import React from "react";
 import "./styles.css";
-
-import { FaTwitch, FaExternalLinkAlt } from "react-icons/fa";
+import listaStreamers from "../../utilities/listaStreamers.json";
+import { FaRegUser, FaTwitch } from "react-icons/fa";
+import CardStreamers from "../CardStreamers";
 
 function ListaStreamers() {
 	return (
 		<div className="container-lista-streamers">
-			<h4>Streamers</h4>
 			<div className="conteudo-lista-streamers">
+				<div className="labels-lista-streamers">
+					<FaRegUser className="icon-user-label"/><p className="p-label-nomes">Nome</p><p>Seguidores</p><FaTwitch className="icon-twitch-label"/>
+				</div>
 				<ul className="lista-streamers">
-					<li className="linha-streamer">
-						<p>Nome</p> <p>Seguidores</p>
-						<FaTwitch size={20} />
-					</li>
-					<li className="linha-streamer">
-						<p>Pedro </p> <FaExternalLinkAlt size={20} />{" "}
-					</li>
-					<li className="linha-streamer">
-						<p>julio </p> <FaExternalLinkAlt size={20} />{" "}
-					</li>
-					<li className="linha-streamer">
-						<p>Nome </p> <FaExternalLinkAlt size={20} />{" "}
-					</li>
-					<li className="linha-streamer">
-						<p>Nome </p> <FaExternalLinkAlt size={20} />
-					</li>
+					{
+						listaStreamers.map((data) => (
+							<CardStreamers key={data.id} data={data}/>
+						))
+					}
 				</ul>
 			</div>
 		</div>

@@ -1,12 +1,12 @@
 .container-lista-streamers {
     height: 75%;
-    width: 75%;
-    background-color: #fff;
-    display: flex;
-    flex-direction: column;
-    border: 1px solid #000;
+    width: 80%;
     padding: 10px 15px;
     margin: 0px 40px;
+    
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
 }
 
 .container-lista-streamers h4{
@@ -17,12 +17,36 @@
     border: 1px solid #000;
 }
 
+.labels-lista-streamers {
+    display: flex;
+    justify-content: space-between;
+    padding: 8px 0px;
+    color: #fff;
+    background-color: #1a1a20;
+    border-bottom: 1px solid #383737;
+}
+
+.icon-user-label {
+    margin-left: 20px;
+}
+
+.icon-twitch-label {
+    margin-right: 10px;
+}
+
+.p-label-nomes {
+    margin-left: 45px;
+}
+
 .lista-streamers{
     display: flex;
     flex-direction: column;
 }
 
-.linha-streamer {
-    display: flex;
-    justify-content: space-between;
+.lista-streamers li:nth-child(odd) {
+    background-color: #1a1a20;
+}
+
+.lista-streamers li:nth-child(even) {
+    background-color: #15151a;
 }

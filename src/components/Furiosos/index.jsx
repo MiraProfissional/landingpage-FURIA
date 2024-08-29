@@ -9,7 +9,9 @@ function Furiosos() {
 			<h2>Acompanhe nossos FURIOSOS!</h2>
 			<div className="conteudo-container-furiosos">
 				<SocialMediaFuria />
-				<div className="divisoria-furiosos"></div>
+				<div className="divisoria-furiosos">
+					
+				</div>
 				<ListaStreamers />
 			</div>
 		</div>

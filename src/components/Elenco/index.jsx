@@ -24,7 +24,7 @@ function Elenco() {
 				</div>
 			</div>
 			<div className="background-elenco-feminino">
-				<h2>Elenco Feminino</h2>
+				<h2>Elenco Inclusivo</h2>
 				<div className="secao-impar">
 					<CardPlayer data={playersFemininos[0]} />
 					<CardPlayer data={playersFemininos[1]} />
