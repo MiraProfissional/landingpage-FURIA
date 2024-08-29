@@ -49,7 +49,7 @@ function SocialMediaFuria() {
 						<FaTwitch /> <p>Twitch</p>
 					</a>
 				</li>
-                <li className="item-lista-social-media">
+				<li className="item-lista-social-media">
 					<a
 						href={"https://www.linkedin.com/company/furiagg/"}
 						className="link-social-media-furia"

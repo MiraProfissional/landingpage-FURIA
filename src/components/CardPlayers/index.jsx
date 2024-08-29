@@ -15,7 +15,7 @@ function CardPlayer(props) {
 					alt="bandeira-brasileira"
 				/>
 			);
-		} else if (nacionalidade === "Argentina") {
+		}  if (nacionalidade === "Argentina") {
 			return (
 				<img
 					src={"../images/Bandeiras/argentina-flag-icon.png"}
@@ -23,7 +23,7 @@ function CardPlayer(props) {
 					alt="bandeira-argentina"
 				/>
 			);
-		} else if (nacionalidade === "Chilena") {
+		}  if (nacionalidade === "Chilena") {
 			return (
 				<img
 					src={"../images/Bandeiras/chile-flag-icon.png"}
@@ -38,9 +38,9 @@ function CardPlayer(props) {
 	const avaliarCapitao = (capitao) => {
 		if (capitao === "true") {
 			return <p className="informacao-capitao">Capitão</p>;
-		} else {
+		}  
 			return null;
-		}
+		
 	};
 
 	return (
