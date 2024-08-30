@@ -8,7 +8,7 @@ import "swiper/css/autoplay";
 
 function Carrossel() {
 	return (
-		<div id="container-carrousel">
+		<div id="container-carrossel">
 			<Swiper
 				modules={[Navigation, Pagination]}
 				slidesPerView={1}

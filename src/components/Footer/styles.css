@@ -1,4 +1,55 @@
 #container-footer {
-    height: 70vh;
+    height: 50vh;
     background-color: rgba(96,96,96,1);
+    display: flex;
+    flex-direction: column;
+    padding-top: 60px;
+}
+
+#container-footer a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 1.2rem;
+}
+
+#container-footer li {
+    list-style: none;
+}
+
+#container-footer h4 {
+    color: #fff;
+    font-size: 2.0rem;
+    margin-bottom: 30px;
+}
+
+.container-footer-conteudo {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.container-footer-conteudo li{
+    margin-top: 10px;
+}
+
+.div-paginas-footer, .div-politicas-footer, .div-social-media-footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.sepador-copyright {
+    margin: 0 auto;
+    height: 2px;
+    width: 95%;
+    background-color: #2a2a2a;
+}
+
+.copyright {
+    padding: 5px;
+    text-align: center;
+}
+
+#container-footer a:hover{
+   color: #f7d742;
 }
