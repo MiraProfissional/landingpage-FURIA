@@ -5,6 +5,8 @@ import './styles.css'
 
 function Patrocionadores() {
   return (
+  <>
+	<div className='divisoria-patrocinadores'></div>
     <div id='container-patrocinadores'>
       <Swiper
 				modules={[Navigation, Pagination]}
@@ -61,6 +63,8 @@ function Patrocionadores() {
 				</SwiperSlide>
 			</Swiper>
     </div>
+	<div className='divisoria-patrocinadores'></div>
+	</>
   )
 }
 
