@@ -4,7 +4,7 @@ import "./styles.css";
 import { FaYoutube, FaInstagram, FaTwitch, FaLinkedin } from "react-icons/fa";
 import { FaXTwitter } from "react-icons/fa6";
 
-function SocialMediaFuriaFuriosos() {
+function SocialMediaFuria() {
 	return (
 		<div className="furiosos-social-media">
 			<ul className="lista-social-media">
@@ -64,4 +64,4 @@ function SocialMediaFuriaFuriosos() {
 	);
 }
 
-export default SocialMediaFuriaFuriosos;
+export default SocialMediaFuria;
