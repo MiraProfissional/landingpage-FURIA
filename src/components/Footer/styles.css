@@ -25,6 +25,7 @@
 .container-footer-conteudo {
     display: flex;
     justify-content: space-evenly;
+    flex-grow: 1;
 }
 
 .container-footer-conteudo li{
@@ -40,7 +41,7 @@
 
 .sepador-copyright {
     margin: 0 auto;
-    height: 2px;
+    height: 1px;
     width: 95%;
     background-color: #2a2a2a;
 }
