@@ -16,7 +16,7 @@ function CardStreamers(props) {
 				rel="noreferrer"
 				target="_blank"
 			>
-				<FaExternalLinkAlt />
+				<FaExternalLinkAlt/>
 			</a>
 		</li>
 	);
