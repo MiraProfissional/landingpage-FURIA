@@ -8,12 +8,15 @@ function Footer() {
     <div id='container-footer'>
       <div className="container-footer-conteudo">
         <div>
-          <img src="../images/Logos/logo-furia-footer.png" alt="logo-furia-footer" />
+          <a href="#container-navbar">
+            <img src="../images/Logos/logo-furia-footer.png" alt="logo-furia-footer" />          
+          </a>
+
         </div>
         <div className='div-paginas-footer'>
           <h4>Páginas</h4>
           <ul>
-            <li><a href="#container-carrossel">Home</a></li>
+            <li><a href="#container-navbar">Home</a></li>
             <li><a href="#container-historia">História</a></li>
             <li><a href="#container-elenco">Elenco</a></li>
             <li><a href="#container-campeonatos">Campeonatos</a></li>

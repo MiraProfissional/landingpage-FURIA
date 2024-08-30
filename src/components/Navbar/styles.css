@@ -1,4 +1,4 @@
-.navbar {
+#container-navbar {
     height: 100px;
     display: flex;
     justify-content: space-between;
@@ -23,9 +23,13 @@
     align-items: center;
 }
 
-
-.itens-lista-navbar {
+.itens-lista-navbar a{
+    text-decoration: none;
     color: white;
     font-size: 20px;
     margin: 0px 15px;
+}
+
+.itens-lista-navbar a:hover{
+    color: #f7d742;
 }

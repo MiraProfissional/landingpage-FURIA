@@ -26,7 +26,7 @@ function Carrossel() {
 						className="images-carrossel"
 						alt="Time Masculino Furia"
 					/>
-					<div className="sombra-overlay"></div>
+					<div className="sombra-overlay"> </div>
 					<div className="slide-title">
 						<h1>SOMOS FURIA!</h1>
 						<br />
@@ -38,11 +38,11 @@ function Carrossel() {
 				</SwiperSlide>
 				<SwiperSlide className="slide-item">
 					<img
-						src={"../images/TimeInclusivo/time-Inclusivo-furia.png"}
+						src={"../images/TimeInclusivo/time-inclusivo-furia.png"}
 						className="images-carrossel"
 						alt="Time Inclusivo Furia"
 					/>
-					<div className="sombra-overlay"></div>
+					<div className="sombra-overlay"> </div>
 					<div className="slide-title">
 						<h1>SOMOS FURIA!</h1>
 						<br />
@@ -58,7 +58,7 @@ function Carrossel() {
 						className="images-carrossel"
 						alt="Time Feminino Furia"
 					/>
-					<div className="sombra-overlay"></div>
+					<div className="sombra-overlay"> </div>
 					<div className="slide-title">
 						<h1>SOMOS FURIA!</h1>
 						<br />
