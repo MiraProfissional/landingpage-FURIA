@@ -25,13 +25,17 @@ function Campeonatos() {
 			</div>
 			<div className="campeonato-container-imagens">
 				<div className="chamada-imagens-campeonatos">
-					<a href={"https://www.vlr.gg/event/2004/champions-tour-2024-americas-stage-1/regular-season"}
+					<a
+						href={
+							"https://www.vlr.gg/event/2004/champions-tour-2024-americas-stage-1/regular-season"
+						}
 						className="links-campeonatos"
 						rel="noreferrer"
-						target="_blank">
-							<h3>
-						VCT 2024: Americas Stage 1 <FaExternalLinkAlt size={20} />
-					</h3>
+						target="_blank"
+					>
+						<h3>
+							VCT 2024: Americas Stage 1 <FaExternalLinkAlt size={20} />
+						</h3>
 						<img
 							src={
 								"../images/TimeMasculino/xand-nzr-havoc-furia-vct-americas-2024.jpg"
@@ -42,20 +46,23 @@ function Campeonatos() {
 					</a>
 				</div>
 				<div className="chamada-imagens-campeonatos">
-					<a href={"https://www.instagram.com/furiagg/"}
+					<a
+						href={"https://www.instagram.com/furiagg/"}
 						className="links-campeonatos"
 						rel="noreferrer"
-						target="_blank">
-							<h3>
-							VCT 2024: GC Series 2 - Qualifier 2 <FaExternalLinkAlt size={20} />
-					</h3>
-					<img
-						src={
-							"../images/TimeInclusivo/furia-elemento-f-valorant-game-changers.jpg"
-						}
-						className="imagens-chamada-campeonato"
-						alt="furia-elemento-f-valorant-game-changers"
-					/>
+						target="_blank"
+					>
+						<h3>
+							VCT 2024: GC Series 2 - Qualifier 2{" "}
+							<FaExternalLinkAlt size={20} />
+						</h3>
+						<img
+							src={
+								"../images/TimeInclusivo/furia-elemento-f-valorant-game-changers.jpg"
+							}
+							className="imagens-chamada-campeonato"
+							alt="furia-elemento-f-valorant-game-changers"
+						/>
 					</a>
 				</div>
 			</div>

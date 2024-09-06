@@ -1,8 +1,8 @@
 import React from "react";
 import "./styles.css";
-import CardPlayer from "../CardPlayers";
-import playersMasculinos from "../../utilities/playersMasculinos.json";
 import playersFemininos from "../../utilities/playersFemininos.json";
+import playersMasculinos from "../../utilities/playersMasculinos.json";
+import CardPlayer from "../CardPlayers";
 
 function Elenco() {
 	return (

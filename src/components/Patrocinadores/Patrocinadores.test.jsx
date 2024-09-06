@@ -1,4 +1,3 @@
 describe("</ Patrocinadores>", () => {
-	it("should render </Patrocinadores>", () => {
-	});
+	it("should render </Patrocinadores>", () => {});
 });

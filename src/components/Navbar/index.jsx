@@ -15,11 +15,21 @@ function Navbar() {
 			</div>
 
 			<ul className="lista-nav">
-				<li className="itens-lista-navbar"><a href="#container-carrossel">Home</a></li>
-				<li className="itens-lista-navbar"><a href="#container-historia">História</a></li>
-				<li className="itens-lista-navbar"><a href="#container-elenco">Elenco</a></li>
-				<li className="itens-lista-navbar"><a href="#container-campeonatos">Campeonatos</a></li>
-				<li className="itens-lista-navbar"><a href="#container-furiosos">Furiosos</a></li>
+				<li className="itens-lista-navbar">
+					<a href="#container-carrossel">Home</a>
+				</li>
+				<li className="itens-lista-navbar">
+					<a href="#container-historia">História</a>
+				</li>
+				<li className="itens-lista-navbar">
+					<a href="#container-elenco">Elenco</a>
+				</li>
+				<li className="itens-lista-navbar">
+					<a href="#container-campeonatos">Campeonatos</a>
+				</li>
+				<li className="itens-lista-navbar">
+					<a href="#container-furiosos">Furiosos</a>
+				</li>
 			</ul>
 		</nav>
 	);
