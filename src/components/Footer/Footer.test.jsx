@@ -1,8 +1,8 @@
-import { render } from "@testing-library/react";
-import Footer from ".";
+import { render } from '@testing-library/react';
+import Footer from '.';
 
-describe("</ Footer>", () => {
-	it("should render </Footer>", () => {
-		render(<Footer />);
-	});
+describe('</ Footer>', () => {
+  it('should render </Footer>', () => {
+    render(<Footer />);
+  });
 });

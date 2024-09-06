@@ -1,3 +1,3 @@
-describe("</ Carrossel>", () => {
-	it("should render", () => {});
+describe('</ Carrossel>', () => {
+  it('should render', () => {});
 });

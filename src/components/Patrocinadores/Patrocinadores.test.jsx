@@ -1,3 +1,3 @@
-describe("</ Patrocinadores>", () => {
-	it("should render </Patrocinadores>", () => {});
+describe('</ Patrocinadores>', () => {
+  it('should render </Patrocinadores>', () => {});
 });

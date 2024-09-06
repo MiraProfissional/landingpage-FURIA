@@ -1,44 +1,44 @@
 [
-	{
-		"id": 1,
-		"nomeTwitch": "gafallen",
-		"qtdSeguidores": "1,5 mi",
-		"linkTwitch": "https://www.twitch.tv/gafallen",
-		"imagem": "../images/Streamers/fallen.png"
-	},
-	{
-		"id": 2,
-		"nomeTwitch": "mount",
-		"qtdSeguidores": "1 mi",
-		"linkTwitch": "https://www.twitch.tv/mount",
-		"imagem": "../images/Streamers/mount.png"
-	},
-	{
-		"id": 3,
-		"nomeTwitch": "gafallen",
-		"qtdSeguidores": "950,5 mil",
-		"linkTwitch": "https://www.twitch.tv/brino",
-		"imagem": "../images/Streamers/brino.png"
-	},
-	{
-		"id": 4,
-		"nomeTwitch": "HisWattson",
-		"qtdSeguidores": "729,6 mil ",
-		"linkTwitch": "https://www.twitch.tv/hiswattson",
-		"imagem": "../images/Streamers/hiswattson.png"
-	},
-	{
-		"id": 5,
-		"nomeTwitch": "paulanobre",
-		"qtdSeguidores": "676,4 mil ",
-		"linkTwitch": "https://www.twitch.tv/paulanobre",
-		"imagem": "../images/Streamers/paulanobre.png"
-	},
-	{
-		"id": 6,
-		"nomeTwitch": "sofiaespanha",
-		"qtdSeguidores": "396,1 mil",
-		"linkTwitch": "https://www.twitch.tv/sofiaespanha",
-		"imagem": "../images/Streamers/sofiaespanha.png"
-	}
+  {
+    "id": 1,
+    "nomeTwitch": "gafallen",
+    "qtdSeguidores": "1,5 mi",
+    "linkTwitch": "https://www.twitch.tv/gafallen",
+    "imagem": "../images/Streamers/fallen.png"
+  },
+  {
+    "id": 2,
+    "nomeTwitch": "mount",
+    "qtdSeguidores": "1 mi",
+    "linkTwitch": "https://www.twitch.tv/mount",
+    "imagem": "../images/Streamers/mount.png"
+  },
+  {
+    "id": 3,
+    "nomeTwitch": "gafallen",
+    "qtdSeguidores": "950,5 mil",
+    "linkTwitch": "https://www.twitch.tv/brino",
+    "imagem": "../images/Streamers/brino.png"
+  },
+  {
+    "id": 4,
+    "nomeTwitch": "HisWattson",
+    "qtdSeguidores": "729,6 mil ",
+    "linkTwitch": "https://www.twitch.tv/hiswattson",
+    "imagem": "../images/Streamers/hiswattson.png"
+  },
+  {
+    "id": 5,
+    "nomeTwitch": "paulanobre",
+    "qtdSeguidores": "676,4 mil ",
+    "linkTwitch": "https://www.twitch.tv/paulanobre",
+    "imagem": "../images/Streamers/paulanobre.png"
+  },
+  {
+    "id": 6,
+    "nomeTwitch": "sofiaespanha",
+    "qtdSeguidores": "396,1 mil",
+    "linkTwitch": "https://www.twitch.tv/sofiaespanha",
+    "imagem": "../images/Streamers/sofiaespanha.png"
+  }
 ]

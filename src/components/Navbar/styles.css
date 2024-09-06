@@ -1,35 +1,35 @@
 #container-navbar {
-    height: 100px;
-    display: flex;
-    justify-content: space-between;
-    background-color: black;
-    padding: 1em;
+  height: 100px;
+  display: flex;
+  justify-content: space-between;
+  background-color: black;
+  padding: 1em;
 }
 
 .div-img {
-    height: auto;
-    display: flex;
-    align-items: center;
+  height: auto;
+  display: flex;
+  align-items: center;
 }
 
 .div-img img {
-    width: 100%;
-    height: auto;
+  width: 100%;
+  height: auto;
 }
 
 .lista-nav {
-    display: flex;
-    list-style: none;
-    align-items: center;
+  display: flex;
+  list-style: none;
+  align-items: center;
 }
 
-.itens-lista-navbar a{
-    text-decoration: none;
-    color: white;
-    font-size: 20px;
-    margin: 0px 15px;
+.itens-lista-navbar a {
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
+  margin: 0px 15px;
 }
 
-.itens-lista-navbar a:hover{
-    color: #f7d742;
+.itens-lista-navbar a:hover {
+  color: #f7d742;
 }

@@ -1,8 +1,8 @@
-import { render } from "@testing-library/react";
-import ListaStreamers from ".";
+import { render } from '@testing-library/react';
+import ListaStreamers from '.';
 
-describe("</ ListaStreamers>", () => {
-	it("should render </ListaStreamers>", () => {
-		render(<ListaStreamers />);
-	});
+describe('</ ListaStreamers>', () => {
+  it('should render </ListaStreamers>', () => {
+    render(<ListaStreamers />);
+  });
 });

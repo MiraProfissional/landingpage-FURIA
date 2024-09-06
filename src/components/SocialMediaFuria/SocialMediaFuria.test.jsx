@@ -1,8 +1,8 @@
-import { render } from "@testing-library/react";
-import SocialMediaFuria from ".";
+import { render } from '@testing-library/react';
+import SocialMediaFuria from '.';
 
-describe("</ SocialMediaFuria>", () => {
-	it("should render </SocialMediaFuria>", () => {
-		render(<SocialMediaFuria />);
-	});
+describe('</ SocialMediaFuria>', () => {
+  it('should render </SocialMediaFuria>', () => {
+    render(<SocialMediaFuria />);
+  });
 });
